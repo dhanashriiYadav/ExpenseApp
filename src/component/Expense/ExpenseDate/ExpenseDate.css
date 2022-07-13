@@ -1,0 +1,44 @@
+.ExpenseDate{
+    border: 1px solid rgb(250, 248, 248);
+    background-color: white;
+    /* background: #30E8BF;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to bottom, #FF8235, #30E8BF); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+    /* background-color:#4d224b; */
+    color: black;
+    /* float: left; */
+    border-radius: 10px;
+    margin: 17px;
+    margin-left: 25px;
+    min-width: 6rem;
+    align-items: center;
+    box-shadow:  0 0 5px 5px #005d1d;
+   font-size: 18px;
+}
+.ExpenseDate:hover{
+    background-color: #4d224b;color: white;
+}
+.ExpenseDate p{
+    text-align: center;margin: 2px;
+}
+.day{
+    font-size: 28px;background-color: #4d224b;color: white;
+    border-radius: 5px;padding: 5px;
+}
+
+.yr{
+    font-size: 25px;
+}
+hr{
+    border:1px solid black;margin: 0;
+}
+/* hr:hover{
+    border:1px solid white
+} */
+.ExpenseDate:hover hr{
+    border:1px solid white
+}
+.ExpenseDate:hover .day{
+    background-color: white;color: black;border: 0;border-radius: 10px;
+}

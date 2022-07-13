@@ -1,0 +1,38 @@
+.outer_bar{
+    height: 100px;
+    display: flex;
+    /* flex-direction:column; */
+    border: 1px solid white;
+    width: 20px;
+    /* display:flex; */
+    /* justify-content:end; */
+}
+.Innner_bar{
+    /* height: 100%; */
+    width: 100%;
+    background-color:rgb(233, 218, 165);
+    /* background-color: pink; */
+    /* padding: 9px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.fill_bar{
+    /* background-color: rgb(223, 153, 61); */
+    background-color: rgb(222, 113, 131);
+    width: 100%;
+    /* padding: 9px; */
+    /* padding: 2px; */
+    transition: all .3sec ease-out;
+}
+.labels{
+    color:white;
+    font-size: 1rem; 
+    font-weight: 400;
+    /* border: 2px solid black; */
+    /* height: 10px; */
+    /* position: relative; */
+    /* top: 90%; */
+    margin-top: 5px;
+}

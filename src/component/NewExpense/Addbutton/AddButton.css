@@ -1,0 +1,22 @@
+.EnterExpense{
+    background-color: rgb(148, 145, 86);
+    width: 15rem;
+    height: 50px;
+    color:#581455 ;
+    font-size: 20px;
+    box-shadow: 0 5px 10px ;
+}
+
+.buttondiv{
+    width: 10rem;
+    margin: 0;
+    display: inline;
+    padding: 20px;
+    
+}
+.addbtnDiv{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    width: fit-content;
+    margin: auto;
+}
